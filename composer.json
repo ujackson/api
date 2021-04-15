@@ -12,9 +12,15 @@
         "name": "Jason Lewis",
         "email": "jason.lewis1991@gmail.com"
     }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ujackson/blueprint.git"
+        }
+    ],
     "require": {
         "php": ">=7.2.5",
-        "dingo/blueprint": "^0.4",
+        "dingo/blueprint": "dev-master",
         "illuminate/routing": "^7.0|^8.0",
         "illuminate/support": "^7.0|^8.0",
         "league/fractal": "^0.19"
